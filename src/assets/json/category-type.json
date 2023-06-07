@@ -1,0 +1,26 @@
+[
+    {
+        "id": "C01",
+        "categoryName": "Mirrorwork Lehengas",
+        "categoryNameJson": "MirrorworkLehengas",
+        "imageURL":"../../../../assets/images/MirrorWork.jpg"
+    },
+    {
+        "id": "C02",
+        "categoryName": "Jacket Style Lehengas",
+        "categoryNameJson": "JacketStyleLehengas",
+        "imageURL":"../../../../assets/images/JacketStyle.jpg"
+    },
+    {
+        "id": "C03",
+        "categoryName": "Long Choli Lehengas",
+        "categoryNameJson": "LongCholiLehengas",
+        "imageURL":"../../../../assets/images/LongCholi.jpg"
+    },
+    {
+        "id": "C04",
+        "categoryName": "Wedding Lehengas",
+        "categoryNameJson": "WeddingLehengas",
+        "imageURL":"../../../../assets/images/Wedding.jpg"
+    }
+]

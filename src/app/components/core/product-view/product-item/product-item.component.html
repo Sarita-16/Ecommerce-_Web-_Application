@@ -1,0 +1,33 @@
+<div class="card">
+    <img src={{productItem.imageURL}} class="card-img-top" alt="...">
+    <div class="card-body">
+        <div class="d-flex justify-content-between">
+            <div class="details">
+                <div id="name"><b>{{productItem.ProductName}}</b></div>
+                <div id="desc">{{productItem.desc}}</div>
+            </div>
+            <div>
+                <i *ngIf="!isWishlisted" class="fa fa-heart-o" (click)="handleAddToWishlist(productItem.id)"></i>
+                <i *ngIf="isWishlisted" class="fa fa-heart" (click)="handleRemoveFromWishlist(productItem.id)"></i>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <div id="price"><b>{{productItem.Price | currency:'INR'}}</b></div>
+            <button 
+                *ngIf="!isAddedToCart"
+                (click)="handleAddToCart(productItem.id)"
+                type="button" 
+                class="btn btn-sm btn-outline-info">
+                <span>Add to Cart <i class="fa fa-shopping-bag ps-2" aria-hidden="true"></i></span>
+            </button>
+            <button 
+                *ngIf="isAddedToCart"
+                (click)="handleGoToCart()"
+                type="button" 
+                class="btn btn-sm btn-outline-info">
+                <span>Go to Cart <i class="fa fa-arrow-right ps-2" aria-hidden="true"></i></span>
+            </button>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,35 @@
+<div class="main-body container">
+    <div *ngIf="this.isUserLoggedIn; else logInBlock">
+        <div *ngIf="wishList.length; else emptyBlock">
+            <h5>My Wishlist - {{wishList.length}} item(s)</h5>
+            <div class="row">
+                <div *ngFor="let item of wishList" class="col-3 p-4">
+                    <div class="card">
+                        <i class="fa fa-times" aria-hidden="true" (click)="removeFromWishlistPage(item.id)"></i>
+                        <img src={{item.imageURL}} class="card-img-top" alt="...">
+                        <div class="card-body d-flex justify-content-between">
+                            <div>
+                                <div><b>{{item.ProductName}}</b></div>
+                                <div>{{item.Price | currency:'INR'}}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ng-template #emptyBlock>
+            <div class="text-center">
+                <img src="../../../../assets/images/Emoji_Shocked.png" class="" alt="Empty Cart">
+                <h5 class="pt-3 pb-5 mb-5"><i>Empty List!! Add your favs in your Wishlist!!</i></h5>
+            </div>
+        </ng-template>
+    </div>
+    <ng-template #logInBlock>
+        <div class="text-center">
+            <img src="../../../../assets/images/EmptyWishlist.png" class="" alt="Empty Wishlist">
+            <h5 class="pt-3">PLEASE LOG IN</h5>
+            <p>Login to view items in your wishlist.</p>
+            <button type="button" class="btn btn-outline-primary mb-5" (click)="handleLogin()">LOGIN</button>
+        </div>
+    </ng-template>
+</div>

@@ -1,0 +1,24 @@
+.card {
+    border: none;
+   // width: 500px;
+    padding: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background: hsla(205, 46%, 30%, 1);
+    background: linear-gradient(90deg, #073a72 0%, hsla(260, 29%, 36%, 1) 100%); 
+}
+
+.card h1,
+h6 {
+    color: #fff;
+}
+
+label {
+    color: #fff;
+}
+
+.alert-danger{
+    padding: 0.75rem;
+}

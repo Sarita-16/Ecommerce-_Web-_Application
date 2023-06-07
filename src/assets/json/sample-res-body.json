@@ -1,0 +1,80 @@
+[{
+    "productId": "001",
+    "productCompanyName":"Biba",
+    "productName":"V Neck maxi dress",
+    "price": "1000",
+    "rating": "4.5",
+    "isNewCollection": true
+},
+{
+    "productId": "002",
+    "productCompanyName":"Biba",
+    "productName":"Round Neck maxi dress",
+    "price": "1000",
+    "rating": "4.5",
+    "isNewCollection": false
+},
+{
+    "productId": "003",
+    "productCompanyName":"Biba",
+    "productName":"V Neck maxi dress",
+    "price": "1000",
+    "rating": "4.5",
+    "isNewCollection": true
+},
+{
+    "productId": "004",
+    "productCompanyName":"Biba",
+    "productName":"V Neck maxi dress",
+    "price": "1000",
+    "rating": "4.5",
+    "isNewCollection": true
+},
+{
+    "productId": "005",
+    "productCompanyName":"Biba",
+    "productName":"V Neck maxi dress",
+    "price": "1000",
+    "rating": "4.5",
+    "isNewCollection": true
+},
+{
+    "productId": "006",
+    "productCompanyName":"Biba",
+    "productName":"V Neck maxi dress",
+    "price": "1000",
+    "rating": "4.5",
+    "isNewCollection": false
+},
+{
+    "productId": "007",
+    "productCompanyName":"Biba",
+    "productName":"V Neck maxi dress",
+    "price": "1000",
+    "rating": "4.5",
+    "isNewCollection": false
+},
+{
+    "productId": "008",
+    "productCompanyName":"Biba",
+    "productName":"V Neck maxi dress",
+    "price": "1000",
+    "rating": "4.5",
+    "isNewCollection": true
+},
+{
+    "productId": "009",
+    "productCompanyName":"Biba",
+    "productName":"V Neck maxi dress",
+    "price": "1000",
+    "rating": "4.5",
+    "isNewCollection": true
+},
+{
+    "productId": "010",
+    "productCompanyName":"Biba",
+    "productName":"V Neck maxi dress",
+    "price": "1000",
+    "rating": "4.5",
+    "isNewCollection": true
+}]

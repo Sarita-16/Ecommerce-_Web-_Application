@@ -1,0 +1,55 @@
+<header class="d-flex justify-content-between align-items-center mb-4 fixed-top">
+    <img src="../../../assets/images/Logo_5.png" alt="Logo" class="img-thumbnail p-0 my-2">
+   <!--  <div class="search-bar has-search">
+        <span class="fa fa-search form-control-feedback"></span>
+        <input type="text" class="form-control" placeholder="Search">
+    </div> -->
+    <div class="user-name">
+        <div *ngIf="activeUser; else nextBlock">
+            <b><i>Hello {{activeUser?.username}}!</i></b>
+        </div>
+        <ng-template #nextBlock>
+            <b><i>Hello there!</i></b>
+        </ng-template>
+    </div>
+    <ul class="nav main-nav ">
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a href="#" class="nav-link " id="profileDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Profile</a>
+            <ul class="dropdown-menu" aria-labelledby="profileDropdown">
+                <!-- <li><h5>Welcome</h5> to access account & manage order </li> -->
+                <div class="welcome-section">
+                    <div *ngIf="!activeUser">
+                        <b>Welcome</b>
+                        <div>to access account & manage order</div>
+                    </div>
+                    <div *ngIf="activeUser">
+                        <b>Hello {{activeUser?.username}}</b>
+                        <p>{{activeUser?.phone_no}}</p>
+                    </div>
+                </div>
+
+
+                <button *ngIf="!activeUser" type="button" class="btn btn-outline-info m-3" (click)="onLogin()">LOGIN / SIGNUP</button>
+
+                <li><a href="#" class="dropdown-item">Order</a></li>
+                <li><a href="#" class="dropdown-item">Orders</a></li>
+                <li><a href="#" class="dropdown-item">Gift Cards</a></li>
+                <li><a href="#" class="dropdown-item">Coupons</a></li>
+                <button *ngIf="activeUser" type="button" class="btn btn-outline-info m-3" (click)="onLogOut()">LOGOUT</button>
+            </ul>
+        </li>
+
+
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/wishlist" routerLinkActive="active">Wishlist</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/cart" routerLinkActive="active">Cart</a>
+        </li>
+    </ul>
+</header>

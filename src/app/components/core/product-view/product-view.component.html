@@ -1,0 +1,12 @@
+<div class="main-body container">
+    <h4>{{categoryName}}</h4>
+    <div class="row">
+        <div *ngFor="let item of productList" class="col-3 p-4">
+            <app-product-item
+                [productItem]="item" 
+                [isWishlisted]="wishlist.indexOf(item.id) >= 0"
+                [isAddedToCart]="cartlist.indexOf(item.id) >= 0" >
+            </app-product-item>
+        </div>
+    </div>
+</div>

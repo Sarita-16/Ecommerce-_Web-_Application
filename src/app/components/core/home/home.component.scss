@@ -1,0 +1,94 @@
+.main-body {
+
+    // margin-top: 105px;
+    .carousel-item .d-block {
+        height: 30rem;
+    }
+
+    /* #carouselExampleIndicators{
+        margin-left: 4%;
+        margin-right: 4%;
+    } */
+    .category-image {
+        width: 307px;
+        height: 439px;
+    }
+
+    .card {
+        border: 1px solid transparent;
+
+        .text-bg {
+            background: rgba(0, 0, 0, 0.18);
+            position: absolute;
+            bottom: 62px;
+            margin-left: 6px;
+            margin-right: 6px;
+            padding: 10px;
+            left: 17%;
+            .card-title {
+                color: white;
+            }
+        }
+    }
+
+    .shop-by-category {
+        height: 75px;
+        width: 1010px;
+    }
+
+    .headshot {
+        flex-shrink: 0;
+        border: calc(3px + 0.2vw) solid transparent;
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        background-size: cover;
+        box-sizing: border-box;
+        box-shadow: 0 0 9px 2px rgb(0 0 0 / 37%);
+    }
+
+    .headshot-3 {
+        border-radius: 16% 1%;
+        // background-image: var(--img-url), linear-gradient(to bottom left, #f83600, #f9d423);
+    }
+
+    .headshot1 {
+        text-align: center;
+        flex-shrink: 0;
+        border: calc(3px + 0.2vw) solid transparent;
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        background-size: cover;
+        box-sizing: border-box;
+        box-shadow: 0 0 9px 0px rgb(0 0 0 / 37%);
+        &:hover,
+        &:active {
+            color: #073a72;
+            border-color: #073a72;
+            background: linear-gradient(to bottom left, #00d4ff -41%, #f8f9fa);
+        }
+    }
+
+    .headshot-31 {
+        border-radius: 1% 43%;
+        background: linear-gradient(to bottom left, #00d4ff, #073a72);
+        .card-title {
+            color: white;
+        }
+
+        /* .btn-primary {
+            border-color: white;
+            background-color: transparent;
+
+            &:hover,
+            &:active {
+                color: #073a72;
+                background-color: white;
+                border-color: white;
+            }
+
+            &:focus {
+                box-shadow: 0 0 0 0.25rem rgb(6 172 209);
+            }
+        } */
+    }
+}

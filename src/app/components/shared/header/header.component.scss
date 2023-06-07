@@ -1,0 +1,79 @@
+header {
+    background-image: radial-gradient(circle, #073a72 36%, #00d4ff 100%, #073a72 92%);
+    box-shadow: 0 5px 19px 0 #073a72;
+
+    .img-thumbnail {
+        width: 220px;
+        margin-left: 4%;
+    }
+
+    .user-name {
+        margin-left: auto;
+        margin-right: 2rem;
+        color: white;
+    }
+
+    .main-nav {
+        margin-right: 4%;
+
+        .nav-item {
+            a {
+                color: white;
+
+                &:hover,
+                &.active {
+                    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+                }
+            }
+
+            .dropdown-menu {
+                background-color: white;
+                border: 1px solid #073a72;
+
+                .dropdown-item {
+                    color: #073a72 !important;
+                    width: 250px;
+
+                    &:active {
+                        background-color: #073a72;
+                        color: white !important;
+                    }
+                }
+
+                .welcome-section {
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                }
+
+                .btn-outline-info {
+                    color: #073a72;
+                    border: 1px solid #073a72;
+
+                    &:hover {
+                        box-shadow: inset 0 0 100px 100px #bdd7f3;
+                    }
+                }
+            }
+        }
+    }
+
+    .has-search {
+        width: 30rem;
+
+        .form-control {
+            padding-left: 2.375rem;
+        }
+
+        .form-control-feedback {
+            position: absolute;
+            z-index: 2;
+            display: block;
+            width: 2.375rem;
+            height: 2.375rem;
+            line-height: 2.375rem;
+            text-align: center;
+            pointer-events: none;
+            color: #aaa;
+        }
+    }
+}

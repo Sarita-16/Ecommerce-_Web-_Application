@@ -1,0 +1,680 @@
+{
+  "registeruser": [
+    {
+      "username": "Sarita",
+      "phone_no": 9876543210,
+      "emailid": "sarita@sarita.com",
+      "password": "252525",
+      "id": 1
+    },
+    {
+      "username": "arnab",
+      "phone_no": "8777584674",
+      "emailid": "Arnab@gmail.com",
+      "password": "Arnab@12",
+      "confirmPassword": "Arnab@12",
+      "id": 2
+    },
+    {
+      "username": "test",
+      "phone_no": "1234567890",
+      "emailid": "test@test.in",
+      "password": "Dynamite",
+      "confirmPassword": "Dynamite",
+      "id": 3
+    }
+  ],
+  "productList": [
+    {
+      "id": 1,
+      "ProductName": "White & Pink stylish lahenga",
+      "Price": "2000",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/abhinavvvvv.jpg",
+      "desc": "This is pink & white coloured and net lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 2,
+      "ProductName": "Yellow stylish lahenga",
+      "Price": "2500",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/bridal_yello_mirror_work_lehenga.jpg",
+      "desc": "This is a yellow coloured and mirror work lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 3,
+      "ProductName": "White stylish lahenga",
+      "Price": "1900",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/chiffon-white-lehenga-choli.jpg",
+      "desc": "This is a white coloured and cotton lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 4,
+      "ProductName": "Multi color stylish lahenga",
+      "Price": "2100",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/cream-organza-thread-foil-and-mirror-work-bridal-lehenga.jpg",
+      "desc": "This is a multi-color coloured and net lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 5,
+      "ProductName": "White mirror lahenga",
+      "Price": "2045",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/Girly-Vol22_small.jpg",
+      "desc": "This is a white with yellow coloured mirror work lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 6,
+      "ProductName": "Stylish lahenga",
+      "Price": "2450",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/Gorgeous designer mirror work lehenga.jpeg",
+      "desc": "This is a gorgeous designer mirror work lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 7,
+      "ProductName": "Green stylish lahenga",
+      "Price": "2200",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/grey_mirror_work.jpg",
+      "desc": "This is a green coloured and mirror lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 8,
+      "ProductName": "White stylish lahenga",
+      "Price": "1190",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/latest_lehenga.jpg",
+      "desc": "This is a white with pink-blue butterfly coloured and mirror lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 9,
+      "ProductName": "Yellow-Pink stylish lahenga",
+      "Price": "1800",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/lehenga-choli.jpg",
+      "desc": "This is yellow-pink-white coloured lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 10,
+      "ProductName": "Baby Pink lahenga",
+      "Price": "2205",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/light_pink_mirrorwork.jpg",
+      "desc": "This is a baby pink coloured and net lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 11,
+      "ProductName": "Yello-Red stylish lahenga",
+      "Price": "2355",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/mirror work lehenga.jpg",
+      "desc": "This is a mirror lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 12,
+      "ProductName": "Orange mirror work lahenga",
+      "Price": "1858",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/orange party wear mirror lehenga.jpg",
+      "desc": "This is a orange party wear mirror lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 13,
+      "ProductName": "Wedding special mirror-work lahenga",
+      "Price": "2025",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/orange taffeta silk mirror work lehenga.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 14,
+      "ProductName": "Pink grey lahenga",
+      "Price": "2095",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/pink-coloured-mirrorwork.jpg",
+      "desc": "This is a pink coloured mirrorwork lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 15,
+      "ProductName": "Pink georgette lahenga",
+      "Price": "2040",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/Pink-georgette-mirror-work-lehenga.jpg",
+      "desc": "This is a Pink georgette mirror work lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 16,
+      "ProductName": "Pinkwhite lahenga",
+      "Price": "2005",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/pinkwhite-mirrorwork.jpeg",
+      "desc": "This is a pinkwhite mirrorwork lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 17,
+      "ProductName": "Sky blue lahenga",
+      "Price": "1850",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/sky blue mirror work lehenga.jpg",
+      "desc": "This is a sky blue mirror work lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 18,
+      "ProductName": "White crystal silk lahenga",
+      "Price": "2469",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/white-crystal-silk-mirror-work.jpg",
+      "desc": "This is a white crystal silk mirror work lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 19,
+      "ProductName": "yellow and pink stylish lahenga",
+      "Price": "2001",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/yellow and pink mirror work lehenga.jpg",
+      "desc": "This is a yellow and pink coloured and mirror work lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 20,
+      "ProductName": "Beige Silk Long Choli",
+      "Price": "1998",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/beige_silk_long_choli.jpg",
+      "desc": "This is a red beige silk long choli lehenga.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 21,
+      "ProductName": "Beige Embroidered Long Choli",
+      "Price": "2022",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/beige-embroidered-long-choli-lehenga.jpg",
+      "desc": "This is beige embroidered long choli Lehenga.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 22,
+      "ProductName": "Black Peach Long Choli",
+      "Price": "2021",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/black-peach-longcholi.jpg",
+      "desc": "This is a black peach longcholi lehenga.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 23,
+      "ProductName": "Blue Satin Long Choli",
+      "Price": "2145",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/blue satin embridered long choli.jpg",
+      "desc": "This is a blue satin embridered long choli lehenga.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 24,
+      "ProductName": "Blue Embroidered Long Choli",
+      "Price": "2450",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/blue-embroidered-long-choli-lehenga-ghscc17203-u.jpg",
+      "desc": "This is a blue embroidered long choli lehenga.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 25,
+      "ProductName": "Cream Brown Long Choli",
+      "Price": "2198",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/cream-brown-longcholi.jpg",
+      "desc": "This is a cream brown longcholi lehenga.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 26,
+      "ProductName": "Festive Wear Long Choli",
+      "Price": "2088",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/festive wear long choli.jpg",
+      "desc": "This is a festive wear long choli lehenga.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 28,
+      "ProductName": "Green Hue Peplum Long Chol",
+      "Price": "2500",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/green hue peplum lehenga choli.jpg",
+      "desc": "This is a green hue peplum lehenga chol lehenga.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 29,
+      "ProductName": "latest lahenga",
+      "Price": "2458",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/latest lehenga long choli.jpg",
+      "desc": "This is a yello coloured long choli lehenga.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 30,
+      "ProductName": "Latest Party lahenga",
+      "Price": "1987",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/latest party wear long choli.jpg",
+      "desc": "This is a latest party wear long choli lehenga.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 31,
+      "ProductName": "Stylish lahenga",
+      "Price": "1999",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/lehenga with long choli.jpg",
+      "desc": "This is a stylish lehenga.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 32,
+      "ProductName": "Light Pink Net Long Choli",
+      "Price": "2101",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/Light-Pink-Net-Long-Choli-Umbrella-Lehenga.jpg",
+      "desc": "This is a light pink net long choli lehenga.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 33,
+      "ProductName": "Royal lahenga",
+      "Price": "2060",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/long choli.jpg",
+      "desc": "This is a royal blue lehenga.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 34,
+      "ProductName": "Mehendi stylish lahenga",
+      "Price": "2452",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/mehendi-coloured-longcholi.jpg",
+      "desc": "This is a mehendi coloured and long cjoli lehenga.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 35,
+      "ProductName": "Pink Long Choli",
+      "Price": "2000",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/pink-long-choli-lehenga-4854.jpg",
+      "desc": "This is a pink long choli lehenga.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 36,
+      "ProductName": "Sea Green lahenga",
+      "Price": "2348",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/prodigious-sea-green-lace-net-long-choli-lehenga.jpg",
+      "desc": "This is a prodigious sea green lace net long choli lehenga.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 37,
+      "ProductName": "Western Long Choli",
+      "Price": "2135",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/Teal-Georgette-Indo-Western-Lehenga-Choli.jpg",
+      "desc": "This is a Teal Georgette Indo Western Lehenga Choli.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 38,
+      "ProductName": "Teal Georgette Long Choli",
+      "Price": "2080",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/Teal-Georgette-Long-Choli-Lehenga.jpg",
+      "desc": "This is a Teal Georgette Long Choli lehenga.",
+      "categoryType": "LongCholiLehengas"
+    },
+    {
+      "id": 39,
+      "ProductName": "Red Stylish lahenga",
+      "Price": "2123",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/01341772499-lehenga-dress-roopvatika-online.jpg",
+      "desc": "This is a red coloured and cwedding lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 40,
+      "ProductName": "Blue Bridal lahenga",
+      "Price": "2470",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/blue-bridal-lehenga-wedding7.jpg",
+      "desc": "This is a blue net bridal wedding lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 41,
+      "ProductName": "Wedding lahenga",
+      "Price": "2066",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/blue-bridal-lehenga-wedding12.jpg",
+      "desc": "This is a blue coloured and wedding lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 42,
+      "ProductName": "Dark Blue lehenga",
+      "Price": "2004",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/bottle green silk wedding lehenga.jpg",
+      "desc": "This is a dark blue silk wedding lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 43,
+      "ProductName": "Stylish lahenga",
+      "Price": "2070",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/bridal lehenga.jpg",
+      "desc": "This is a red coloured and bridal lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 44,
+      "ProductName": "Blue Velvet lahenga",
+      "Price": "2010",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/dark_blue_velvet.jpg",
+      "desc": "This is a dark blue velvet wedding lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 45,
+      "ProductName": "Darkmaroon Velvet lahenga",
+      "Price": "1993",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/darkmaroon-velvet.jpeg",
+      "desc": "This is a darkmaroon velvet coloured lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 46,
+      "ProductName": "Designer lahenga",
+      "Price": "1994",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/designer-bridal-lehenga-500x500.jpg",
+      "desc": "This is a designer bridal wedding lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 47,
+      "ProductName": "Doubledupatta lahenga",
+      "Price": "1995",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/doubledupatta.jpg",
+      "desc": "This is a blue doubledupatta wedding lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 48,
+      "ProductName": "Pink Organza lahenga",
+      "Price": "2078",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/enthralling-pink-organza-mirror-work-lehenga-choli.jpg",
+      "desc": "This is a enthralling pink organza mirror work wedding lehenga choli.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 49,
+      "ProductName": "Golden lahenga",
+      "Price": "1997",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/Golden-lehenga.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 50,
+      "ProductName": "Green Wedding lahenga",
+      "Price": "1992",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/green-heavy-wedding.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 51,
+      "ProductName": "Stylish lahenga",
+      "Price": "1990",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/lehenga for wedding.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 52,
+      "ProductName": "Magenta Pink Silk lahenga",
+      "Price": "2005",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/magenta-pink-silk-embroidered-wedding-lehenga.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 53,
+      "ProductName": "Magenta Velvet lahenga",
+      "Price": "1874",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/Magenta-velvet-bridal-lehenga-choli-8601-300x450.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 54,
+      "ProductName": "Maroon lahenga",
+      "Price": "1963",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/Maroon wedding Lehenga.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 55,
+      "ProductName": "Pink Coloured lahenga",
+      "Price": "2502",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/pink_coloured_bridal.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 56,
+      "ProductName": "Purple Velvet lahenga",
+      "Price": "2000",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/Purple-color-Velvet-Silk-Lehenga-Choli.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 57,
+      "ProductName": "Rajasthani lahenga",
+      "Price": "2075",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/traditional-rajasthani-lehenga.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 58,
+      "ProductName": "Velvet lahenga",
+      "Price": "2156",
+      "imageURL": "../../../../assets/images/wedding-lehenga-images/velvet designer lehenga.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "WeddingLehengas"
+    },
+    {
+      "id": 59,
+      "ProductName": "Black Coloured lahenga",
+      "Price": "2125",
+      "imageURL": "../../../../assets/images/jacketstyle/blackcoloured-jacketstyle.jpg",
+      "desc": "This is a black coloured jacket style lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 60,
+      "ProductName": "Blue & Beige lahenga",
+      "Price": "2365",
+      "imageURL": "../../../../assets/images/jacketstyle/blue & beige georgette long jacket lehenga.jpg",
+      "desc": "This is a blue & beige georgette long jacket lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 61,
+      "ProductName": "Ethnic lahenga",
+      "Price": "1940",
+      "imageURL": "../../../../assets/images/jacketstyle/cape lehenga-fusion ethnic wear.jpg",
+      "desc": "This is a cape lehenga fusion ethnic wear lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 62,
+      "ProductName": "Designer Jacket lehenga",
+      "Price": "1500",
+      "imageURL": "../../../../assets/images/jacketstyle/designer jacket lehenga.jpg",
+      "desc": "This is a designer jacket wedding lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 63,
+      "ProductName": "Exclusive Jacket lahenga",
+      "Price": "2080",
+      "imageURL": "../../../../assets/images/jacketstyle/exclusive jacket lehenga.jpg",
+      "desc": "This is an sea green exclusive jacket lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 64,
+      "ProductName": "Fusion Ethnic lahenga",
+      "Price": "2035",
+      "imageURL": "../../../../assets/images/jacketstyle/fusion ethnic wear.jpg",
+      "desc": "This is a bottel green fusion ethnic lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 65,
+      "ProductName": "Green Chinon Circular Lehenga",
+      "Price": "2001",
+      "imageURL": "../../../../assets/images/jacketstyle/Green-Chinon-Circular-Lehenga-Choli-With-Jacket.jpg",
+      "desc": "This is a Green Chinon Circular Choli With Jacket lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 66,
+      "ProductName": "Green stylish lahenga",
+      "Price": "1988",
+      "imageURL": "../../../../assets/images/jacketstyle/greenjacket-redlehenga.jpg",
+      "desc": "This is a green coloured and jacket lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 67,
+      "ProductName": "Grey Pink lahenga",
+      "Price": "1750",
+      "imageURL": "../../../../assets/images/jacketstyle/grey-pink-mirror-work-jacket.jpg",
+      "desc": "This is a grey pink mirror work jacket lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 68,
+      "ProductName": "Jacket lahenga",
+      "Price": "2090",
+      "imageURL": "../../../../assets/images/jacketstyle/jacket lehenga choli.jpg",
+      "desc": "This is a red yellow coloured and cotton lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 69,
+      "ProductName": "latest jacket Lehenga",
+      "Price": "2008",
+      "imageURL": "../../../../assets/images/jacketstyle/latest jacket lehenga.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 70,
+      "ProductName": "Lehenga With Jacket",
+      "Price": "2400",
+      "imageURL": "../../../../assets/images/jacketstyle/lehenga with jacket.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 71,
+      "ProductName": "Lemon Yellow Jacket Lehenga",
+      "Price": "1800",
+      "imageURL": "../../../../assets/images/jacketstyle/lemon yellow bridal jacket lehenga.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 72,
+      "ProductName": "Party Wear Lahenga",
+      "Price": "2045",
+      "imageURL": "../../../../assets/images/jacketstyle/party wear jacket lehenga.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 73,
+      "ProductName": "Pink Net Jacket Lehenga",
+      "Price": "1950",
+      "imageURL": "../../../../assets/images/jacketstyle/pink net jacket lehenga.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 74,
+      "ProductName": "Short Jacket lahenga",
+      "Price": "2085",
+      "imageURL": "../../../../assets/images/jacketstyle/short-jacket-design-lehenga.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 75,
+      "ProductName": "Silk Embroidered lahenga",
+      "Price": "2500",
+      "imageURL": "../../../../assets/images/jacketstyle/silk hand embroidered jacket lehenga.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 76,
+      "ProductName": "Stunning Jacket lahenga",
+      "Price": "2100",
+      "imageURL": "../../../../assets/images/jacketstyle/stunning jacket lehenga.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 77,
+      "ProductName": "Violet Jacket lahenga",
+      "Price": "2050",
+      "imageURL": "../../../../assets/images/jacketstyle/violet-jacket-style.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    },
+    {
+      "id": 78,
+      "ProductName": "Wedding Jacket lehenga",
+      "Price": "2000",
+      "imageURL": "../../../../assets/images/jacketstyle/wedding jacket lehenga.jpg",
+      "desc": "This is a green coloured and cotton lehenga.",
+      "categoryType": "JacketStyleLehengas"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 14,
+      "ProductName": "Pink grey lahenga",
+      "Price": "2095",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/pink-coloured-mirrorwork.jpg",
+      "desc": "This is a pink coloured mirrorwork lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 1,
+      "ProductName": "White & Pink stylish lahenga",
+      "Price": "2000",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/abhinavvvvv.jpg",
+      "desc": "This is pink & white coloured and net lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 3,
+      "ProductName": "White stylish lahenga",
+      "Price": "1900",
+      "imageURL": "../../../../assets/images/mirror-work-lehenga/chiffon-white-lehenga-choli.jpg",
+      "desc": "This is a white coloured and cotton lehenga.",
+      "categoryType": "MirrorworkLehengas"
+    },
+    {
+      "id": 21,
+      "ProductName": "Beige Embroidered Long Choli",
+      "Price": "2022",
+      "imageURL": "../../../../assets/images/longcholi-lehenga/beige-embroidered-long-choli-lehenga.jpg",
+      "desc": "This is beige embroidered long choli Lehenga.",
+      "categoryType": "LongCholiLehengas"
+    }
+  ],
+  "cartList": []
+}

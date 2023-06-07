@@ -1,0 +1,89 @@
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col-4">
+            <div class="card my-3">
+                <div class="text-center">
+                    <h1>Signup</h1>
+                    <h6>Register Yourself!!</h6>
+                </div>
+                <!--  <div *ngIf="isSubmitted; else elseBlock" class="alert alert-success" role="alert">
+                    Registration successful!! :)
+                </div> -->
+                <div *ngIf="!isSuccess" class="alert alert-danger" role="alert">
+                    Something went wrong. Please try again.
+                </div>
+                <form [formGroup]="signupForm" (ngSubmit)="onSignUp()">
+
+                    <div class="mb-3">
+                        <label for="inputFullName" class="form-label">Full Name</label>
+                        <input formControlName="username" type="text" class="form-control" id="inputFullName">
+                        <div *ngIf="f['username'].touched && f['username'].invalid" class="alert alert-danger">
+                            <div *ngIf="f['username'].errors && f['username'].errors['required']">Name is required.
+                            </div>
+                            <div *ngIf="f['username'].errors && f['username'].errors['minlength']">Name should be 3
+                                character.</div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputPhoneNo" class="form-label">Phone Number</label>
+                        <input formControlName="phone_no" type="text" class="form-control" id="inputPhoneNo">
+                        <div *ngIf="f['phone_no'].touched && f['phone_no'].invalid" class="alert alert-danger">
+                            <div *ngIf="f['phone_no'].errors && f['phone_no'].errors['required']">Phone Number is
+                                required.
+                            </div>
+                            <div *ngIf="f['phone_no'].errors && f['phone_no'].errors['minlength']">Phone Number should
+                                be 10
+                                digits.</div>
+                            <div *ngIf="f['phone_no'].errors && f['phone_no'].errors['maxlength']">Phone Number should
+                                be 10
+                                digits.</div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputEmail" class="form-label">Email Address</label>
+                        <input formControlName="emailid" type="email" class="form-control" id="inputEmail"
+                            aria-describedby="emailHelp">
+                        <div *ngIf="f['emailid'].touched && f['emailid'].invalid" class="alert alert-danger">
+                            <div *ngIf="f['emailid'].errors && f['emailid'].errors['required']">Email is required.</div>
+                            <div *ngIf="f['emailid'].errors && f['emailid'].errors['email']">Please, enter valid email
+                                address.</div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputPassword" class="form-label">Password</label>
+                        <input formControlName="password" type="password" class="form-control" id="inputPassword">
+                        <div *ngIf="f['password'].touched && f['password'].invalid" class="alert alert-danger">
+                            <div *ngIf="f['password'].errors && f['password'].errors['required']">Password is required.
+                            </div>
+                            <div *ngIf="f['password'].errors && f['password'].errors['minlength']">Password must be at
+                                least 5 characters.</div>
+                            <div *ngIf="f['password'].errors && f['password'].errors['maxlength']">Password must be at
+                                least 8 characters.</div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="confirmPassword" class="form-label">Confirm Password</label>
+                        <input formControlName="confirmPassword" type="password" class="form-control"
+                            id="confirmPassword">
+                        <div *ngIf="f['confirmPassword'].touched && f['confirmPassword'].invalid"
+                            class="alert alert-danger">
+                            <div *ngIf="f['confirmPassword'].errors && f['confirmPassword'].errors['required']">
+                                Confirm-Password is required.
+                            </div>
+                            <div *ngIf="f['confirmPassword'].errors && f['confirmPassword'].errors['matching']">
+                                Password does not match.
+                            </div>
+                            <div *ngIf="f['confirmPassword'].errors && f['confirmPassword'].errors['minlength']">
+                                Password must be at least 5
+                                characters same as Password.</div>
+                            <div *ngIf="f['confirmPassword'].errors && f['confirmPassword'].errors['maxlength']">Password must be at
+                                least 8 characters.</div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary" [disabled]="!signupForm.valid">Signup</button>
+                </form>
+                <a style="color: #fff; margin-top: 10px" routerLink="/login">Already registered? Click to Login!!</a>
+            </div>
+        </div>
+    </div>
+</div>

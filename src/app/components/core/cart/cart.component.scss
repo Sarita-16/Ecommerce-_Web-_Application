@@ -1,0 +1,16 @@
+.main-body{
+    .card-img-top{
+        height: 255px;
+    }
+    .fa{
+        position: absolute;
+        right: 2%;
+        font-size: 18px;
+        top: 1%;
+        opacity: 60%;
+        cursor: pointer;
+    }
+    .divider{
+        border-right: 1px solid #b0adad;
+    }
+}

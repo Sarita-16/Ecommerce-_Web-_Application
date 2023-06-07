@@ -1,0 +1,59 @@
+<div class="main-body container">
+    <div *ngIf="this.isUserLoggedIn; else logInBlock">
+        <div class="row" *ngIf="cartList.length; else emptyBlock">
+            <div class="col-8 border-end">
+                <h5>My Cart - {{cartList.length}} item(s)</h5>
+                <div class="row">
+                    <div *ngFor="let item of cartList" class="col-3 p-4">
+                        <div class="card">
+                            <i class="fa fa-times" aria-hidden="true" (click)="handleRemoveFromCartList(item.id)"></i>
+                            <img src={{item.imageURL}} class="card-img-top" alt="...">
+                            <div class="card-body d-flex justify-content-between">
+                                <div>
+                                    <div><i>{{item.ProductName}}</i></div>
+                                    <div><b>{{item.Price | currency:'INR'}}</b></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <p class="pt-5"><b>Price Details </b>({{cartList.length}} items)</p>
+                <table class="table table-borderless">
+                    <tbody>
+                        <tr>
+                            <td>Total MRP</td>
+                            <td class="float-end">{{totalMRP | currency:'INR'}}</td>
+                        </tr>
+                        <tr class="border-bottom">
+                            <td>Delivery Charge</td>
+                            <td class="float-end">{{deliveryCharge | currency:'INR'}} </td>
+                        </tr>
+                        <tr>
+                            <td>Total Amount</td>
+                            <td class="float-end">{{totalMRP + 100 | currency:'INR'}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-success" type="button">Place Now</button>
+                  </div>
+            </div>
+        </div>
+        <ng-template #emptyBlock>
+            <div class="text-center">
+                <img src="../../../../assets/images/Emoji_sad.png" class="" alt="Empty Cart">
+                <h5 class="pt-3 pb-5 mb-5"><i>Empty Cart!! Add some items in your Cart.</i></h5>
+            </div>
+        </ng-template>
+    </div>
+    <ng-template #logInBlock>
+        <div class="text-center">
+            <img src="../../../../assets/images/EmptyCart.png" class="" alt="Empty Cart">
+            <h5 class="pt-3">PLEASE LOG IN</h5>
+            <p>Login to add some items in your Cart.</p>
+            <button type="button" class="btn btn-outline-primary mb-5" (click)="handleLogin()">LOGIN</button>
+        </div>
+    </ng-template>
+</div>

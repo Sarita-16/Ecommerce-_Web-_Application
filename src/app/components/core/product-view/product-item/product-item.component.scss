@@ -1,0 +1,21 @@
+.card-img-top {
+    height: 350px;
+}
+.fa{
+    cursor: pointer;
+    &.fa-heart-o, &.fa-heart{
+        font-size: 25px;
+        color: #e51d4d;
+    }
+    &.fa-shopping-bag{
+        font-size: 20px;
+    }
+}
+.details{
+    #name{
+        font-size: 16px;
+    }
+    #price{
+        font-size: 17px;
+    }
+}

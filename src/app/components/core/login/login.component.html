@@ -1,0 +1,85 @@
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-4">
+      <div class="card my-3">
+        <div class="text-center">
+          <h1>Login</h1>
+          <h6>Please enter email and password!</h6>
+        </div>
+        <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              formControlName="emailid"
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+
+            <div
+              *ngIf="f['emailid'].touched && f['emailid'].invalid"
+              class="alert alert-danger"
+            >
+              <div
+                *ngIf="f['emailid'].errors && f['emailid'].errors['required']"
+              >
+                Email is required.
+              </div>
+              <div *ngIf="f['emailid'].errors && f['emailid'].errors['email']">
+                Please, enter valid email address.
+              </div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              formControlName="password"
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+            <div
+              *ngIf="f['password'].touched && f['password'].invalid"
+              class="alert alert-danger"
+            >
+              <div
+                *ngIf="f['password'].errors && f['password'].errors['required']"
+              >
+                Password is required.
+              </div>
+              <div
+                *ngIf="
+                  f['password'].errors && f['password'].errors['minlength']
+                "
+              >
+                Password must be at least 5 characters.
+              </div>
+              <div
+                *ngIf="
+                  f['password'].errors && f['password'].errors['maxlength']
+                "
+              >
+                Password must be at least 8 characters😍.
+              </div>
+            </div>
+          </div>
+          <button
+            type="submit"
+            class="btn btn-primary"
+            [disabled]="!loginForm.valid"
+          >
+            Login
+          </button>
+        </form>
+        <a style="color: #fff; margin-top: 10px" routerLink="/signup"
+          >New user? Click to signup!!</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
